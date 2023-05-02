@@ -77,4 +77,4 @@ jobs:
             sudo docker pull maxswallow/infra_actions:v1.05.2023
             #остановка всех контейнеров
             sudo docker stop $(sudo docker ps -a -q)
-            sudo docker run --rm -d -p 5000:5000 maxswallow/infra_actions
+            sudo docker run --rm -d -p 5000:5000 maxswallow/infra_actions:v1.05.2023
